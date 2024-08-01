@@ -1,0 +1,15 @@
+name: econoplay
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pandas
+  - jupyter
+  - matplotlib
+  - sphinx
+  - sphinx_rtd_theme>0.5.1
+  - pip
+  - pip:
+      - sphinxcontrib-bibtex
+
